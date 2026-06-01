@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>behindAstro — Archive</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            mono: ['"Space Mono"', 'monospace'],
+          },
+          colors: {
+            cream: '#f5f0e8',
+          },
+        },
+      },
+    }
+  </script>
+</head>
+<body class="bg-cream text-neutral-800 font-mono min-h-screen flex flex-col">
+
+  <!-- Navbar -->
+  <nav class="sticky top-0 z-50 pb-24" style="background:rgb(245,240,232);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);-webkit-mask-image:linear-gradient(to bottom,black 0%,black 35%,rgba(0,0,0,0.2) 65%,transparent 85%);mask-image:linear-gradient(to bottom,black 0%,black 35%,rgba(0,0,0,0.2) 65%,transparent 85%)">
+    <div class="max-w-3xl mx-auto px-6 py-4 flex items-center gap-8">
+      <p class="text-xs uppercase text-neutral-400">//</p>
+      <a href="index.html" class="text-xs tracking-widest uppercase text-neutral-400 hover:text-neutral-600 transition-colors">intro</a>
+      <a href="archive.html" class="text-xs tracking-widest uppercase text-neutral-800 transition-colors">archive</a>
+      <a href="resources.html" class="text-xs tracking-widest uppercase text-neutral-400 hover:text-neutral-600 transition-colors">resources</a>
+    </div>
+  </nav>
+
+  <!-- Archive -->
+  <section class="max-w-3xl mx-auto px-6 pt-24 pb-20 w-full">
+    <p class="text-sm leading-relaxed text-neutral-600">
+      Past proposals, presentations, and documents will be posted here.
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="mt-auto px-6 py-6 max-w-3xl mx-auto w-full border-t border-dotted border-neutral-300">
+    <p class="text-neutral-400 text-xs flex items-center justify-center gap-1.5">
+      vibe-coded with Claude Code
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 12" class="inline-block w-4 h-3" aria-label="Claude Code">
+        <g fill="#CC7A5A">
+          <rect x="2"  y="2" width="12" height="7"/>
+          <rect x="0"  y="5" width="2"  height="2"/>
+          <rect x="14" y="5" width="2"  height="2"/>
+          <rect x="2"  y="9" width="2"  height="2"/>
+          <rect x="5"  y="9" width="2"  height="2"/>
+          <rect x="9"  y="9" width="2"  height="2"/>
+          <rect x="12" y="9" width="2"  height="2"/>
+        </g>
+        <rect x="4"  y="3" width="2" height="3" fill="white"/>
+        <rect x="10" y="3" width="2" height="3" fill="white"/>
+      </svg>
+    </p>
+  </footer>
+
+</body>
+</html>
